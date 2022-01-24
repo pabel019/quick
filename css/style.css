@@ -151,10 +151,17 @@ hr {
     margin: 15px 0px;
 }
 
-.banner .banner-img {
-    width: 70%;
+.banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: right;
-    margin: 20px 0px 0px 80px;
+    margin-top: -120px;
+}
+
+.banner-img img {
+    width: 60%;
+    text-align: center;
 }
 
 .left-text {
